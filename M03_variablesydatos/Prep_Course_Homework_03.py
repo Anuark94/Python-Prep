@@ -7,12 +7,18 @@
 
 # In[7]:
 
+variable = 4
+print(variable)
+
+
 
 
 
 # 2) Imprimir el tipo de dato de la constante 8.5
 
 # In[3]:
+
+type(8.5)
 
 
 
@@ -22,6 +28,7 @@
 
 # In[8]:
 
+type(variable)
 
 
 
@@ -30,6 +37,7 @@
 
 # In[2]:
 
+mi_nombre = 'Anuark Jimenez'
 
 
 
@@ -37,7 +45,7 @@
 
 # In[3]:
 
-
+num_comple = 4+5j
 
 
 
@@ -45,7 +53,7 @@
 
 # In[4]:
 
-
+type(num_comple)
 
 
 
@@ -61,7 +69,10 @@ pi = 3.1416
 
 # In[3]:
 
+variablel1 = 'True'
+variable2 = True
 
+variablel1 == variable2
 
 
 
@@ -69,7 +80,7 @@ pi = 3.1416
 
 # In[5]:
 
-
+print('La variable variable11 es de tipo', type(variablel1), ' y la variable2 es de tipo', type(variable2))
 
 
 
@@ -77,7 +88,7 @@ pi = 3.1416
 
 # In[1]:
 
-
+suma = 56 + 5.6
 
 
 
@@ -85,7 +96,10 @@ pi = 3.1416
 
 # In[2]:
 
+num1 = 4 + 7j
+num2 = 34 + 98j
 
+print(num1 + num2)
 
 
 
@@ -93,7 +107,9 @@ pi = 3.1416
 
 # In[4]:
 
-
+sumcom = 45 + 4j
+sumRe = 67
+print(sumcom + sumRe)
 
 
 
@@ -102,6 +118,7 @@ pi = 3.1416
 # In[5]:
 
 
+print(4 * 7)
 
 
 
@@ -109,6 +126,7 @@ pi = 3.1416
 
 # In[6]:
 
+print(2**8)
 
 
 
@@ -116,13 +134,17 @@ pi = 3.1416
 
 # In[8]:
 
-
+cociente = 27/4
+print(cociente)
 
 
 
 # 16) De la división anterior solamente mostrar la parte entera
 
 # In[9]:
+
+p_entera = 27 // 4
+print(p_entera)
 
 
 
@@ -132,6 +154,8 @@ pi = 3.1416
 
 # In[1]:
 
+resto = 27 % 4
+print(resto)
 
 
 
@@ -139,8 +163,7 @@ pi = 3.1416
 # 18) Utilizando como operandos el número 4 y los resultados obtenidos en los puntos 16 y 17. Obtener 27 como resultado
 
 # In[2]:
-
-
+print(4 * p_entera + resto)
 
 
 
@@ -148,6 +171,10 @@ pi = 3.1416
 
 # In[3]:
 
+nombre = 'Anuark '
+apellido = 'Jimenez'
+
+nombre + apellido
 
 
 
@@ -156,7 +183,7 @@ pi = 3.1416
 
 # In[4]:
 
-
+"2" == 2
 
 
 
@@ -164,7 +191,7 @@ pi = 3.1416
 
 # In[11]:
 
-
+int("2") == 2
 
 
 
@@ -172,6 +199,7 @@ pi = 3.1416
 
 # In[12]:
 
+a = float('3,8')
 
 
 
@@ -180,6 +208,9 @@ pi = 3.1416
 
 # In[15]:
 
+y = 3
+y -= 1
+print(y)
 
 
 
@@ -188,7 +219,7 @@ pi = 3.1416
 
 # In[29]:
 
-
+1 << 2
 
 
 
@@ -197,6 +228,7 @@ pi = 3.1416
 # In[23]:
 
 
+2 + int('2')
 
 
 
@@ -205,5 +237,7 @@ pi = 3.1416
 
 # In[30]:
 
+jaa = 'Ja! '
+veces = 4
 
-
+print(jaa * veces)
